@@ -1,0 +1,53 @@
+repo: "call-to-action-banner"
+canvasCourse: "467502"
+canvasAssignment: "4178307"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - ".banner"
+      - ".banner .img-flex"
+      - ".banner h2"
+      - ".banner p"
+      - ".banner img"
+    search:
+      - "Roboto"
+      - "Roboto\\+Condensed"
+      - "Ultra Super Fighting Force"
+      - "Control giant, fighting, transforming robots and save the world!"
+      - "Join USFF"
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+      - ['body', 'margin', 0]
+      - ['.img-flex', 'display', 'block']
+      - ['.img-flex', 'width', '100%']
+      - ['.banner']
+      - ['.btn']
+      - ['.btn:hover']
+      - ['.btn-big']
+    search:
+      - "Roboto"
+      - "Roboto Condensed"
+      - "position: relative"
+      - "position: absolute"
+      - "float: left"
+      - "float: right"
+      - "left:"
+      - "top:"
+      - "translate"
+      - "overflow: hidden"
+      - "max-height"
+
+screenshots:
+  - path: "index.html"
+    sizes: [650, 1400]
