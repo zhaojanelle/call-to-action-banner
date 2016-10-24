@@ -1,23 +1,28 @@
 repo: "call-to-action-banner"
-canvasCourse: "467502"
-canvasAssignment: "4178307"
+canvasCourse: "web-dev-1"
 
 naming: true
-commits: 2
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: "index.html"
     valid: true
     bestPractices: true
     has:
+      - ['link[href*="Roboto:400,700"]', 'The Google Font, `Roboto` (regular & bold) is missing']
+      - ['link[href*="Roboto+Condensed:700"]', 'The Google Font, `Roboto Condensed` (bold) is missing']
       - ".banner"
       - ".banner .img-flex"
       - ".banner h2"
       - ".banner p"
       - ".banner img"
     search:
-      - "Roboto"
-      - "Roboto\\+Condensed"
       - "Ultra Super Fighting Force"
       - "Control giant, fighting, transforming robots and save the world!"
       - "Join USFF"
@@ -28,6 +33,7 @@ css:
     bestPractices: true
     has:
       - ['html', 'box-sizing', 'border-box']
+      - ['*', 'box-sizing', 'inherit']
       - ['body', 'margin', 0]
       - ['.img-flex', 'display', 'block']
       - ['.img-flex', 'width', '100%']

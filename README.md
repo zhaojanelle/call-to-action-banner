@@ -1,11 +1,12 @@
-# Call to action banner
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
-
+---
+summary: 'Use CSS position along with float to create a call to action banner.'
+time: '1 hour'
+deliverables: '1 HTML file, 1 CSS file, images'
 ---
 
-**Use CSS position along with float to create a call to action banner.**
+# Call to action banner
+
+## Overview
 
 - *Fork this repository.*
 - Use a combination of `position` and `float` to create the call to action banner.
@@ -20,7 +21,7 @@
 - *Typefaces:* `Roboto`, `Roboto Condensed`
 - *Text sizes:* `3rem`, `1.5rem`
 - *Expected class names:* `.banner`, `.img-flex`, `.btn`, `.btn-big`
-- *Banner maxiumum height:* `500px`
+- *Banner maximum height:* `500px`
 
 ---
 
