@@ -15,8 +15,8 @@ html:
     valid: true
     bestPractices: true
     has:
-      - ['link[href*="Roboto:400,700"]', 'The Google Font, `Roboto` (regular & bold) is missing']
-      - ['link[href*="Roboto+Condensed:700"]', 'The Google Font, `Roboto Condensed` (bold) is missing']
+      - ['link[href*="Roboto"]', 'The Google Font, `Roboto` (regular & bold) is missing']
+      - ['link[href*="Roboto+Condensed"]', 'The Google Font, `Roboto Condensed` (bold) is missing']
       - ".banner"
       - ".banner .img-flex"
       - ".banner h2"
