@@ -10,3 +10,24 @@ html {
 body {
   margin: 0;
 }
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+}
+
+.banner-content h2,
+.banner-content p {
+  margin: 0;
+}
