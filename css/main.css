@@ -43,17 +43,22 @@ p {
   margin: .8rem 0;
 }
 
+.banner-image {
+  width: 35%;
+  float:left;
+  padding: 0 1rem;
+}
+
 .img-flex {
-  width: 33%;
-  float: left;
-  margin-left: 1rem;
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
 
 .banner-text {
-  margin-left: 42%;
-  width: 23rem;
+  width: 65%;
   text-align: left;
+  float: right;
+  padding: 0 2rem;
 }
 
 .btn {
